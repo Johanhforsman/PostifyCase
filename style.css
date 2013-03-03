@@ -1,0 +1,110 @@
+* {  
+    margin: 0;  
+    padding: 0;  
+}  
+
+body {  
+    font-family: Helvetica;  
+}  
+
+p {
+    margin-bottom: 15px;
+}
+
+a {  
+    color: #00BCF2; 
+    margin: 10px 0; 
+    text-decoration: none;
+}  
+
+a:hover, a:active, a:visited {  
+    text-decoration: none;  
+}  
+
+#logout {
+    clear:both;
+    font-weight:bold;
+    margin-top: 30px;
+}
+
+h1 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h4.alert {
+    background-color: #bfbfbf;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: .4em;
+    font-size: 19px;
+    line-height: 19px;
+    position: relative;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+#main {  
+    width: 400px;  
+    min-height: 310px;
+    height: 250px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-top: -150px;
+    margin-left:-240px; 
+    padding: 10px;  
+    border: 1px solid #CCC;  
+    background-color: #EEE; 
+    -webkit-box-shadow: 1px 2px 5px #CCC;
+    -moz-box-shadow: 1px 2px 5px #CCC;
+    -o-box-shadow: 1px 2px 5px #CCC;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+}  
+
+#loginform, #registerform {
+    margin-top:20px;
+}
+
+form fieldset { border: 0; }  
+
+form fieldset p br { clear: left; }  
+
+label {   
+    display: block;
+    width: 100px;
+    padding: 6px;
+    font-size: 20px;
+    float: left; 
+}  
+
+input {  
+    font-family: Helvetica; 
+    font-size: 24px; 
+    border: 1px solid #CCC;  
+    margin-bottom: 5px;  
+    background-color: #FFF;  
+    padding: 4px;  
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+}  
+
+input:hover {  
+    border: 1px solid #222;  
+    background-color: #EEE;  
+}
+
+#login, #register {
+    margin: 15px 0;
+    font-size: 14px;
+    padding: 4px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+}
